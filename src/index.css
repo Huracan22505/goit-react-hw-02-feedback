@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png);
 }
 
 code {
