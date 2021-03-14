@@ -13,9 +13,9 @@ class App extends Component {
   };
 
   feedbackIncrement = e => {
-    e = e.target.textContent.toLowerCase();
+    const feedback = e.target.textContent.toLowerCase();
     this.setState(prevState => ({
-      [e]: prevState[e] + 1,
+      [feedback]: prevState[feedback] + 1,
     }));
   };
 
